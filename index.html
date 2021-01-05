@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Shelley's Data Science Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1 style="text-transform:uppercase;font-family:Arial">Data Science<br />
+						Portfolio</h1>
+						<p><b>Shelley Ni</b>'s data science projects <br />
+			
+						   Machine Learning | Deep Learning | Exploratory Data Analysis | Statistics </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Check it out</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
+							<li><a href="About me.html">About me</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/shelley-ni-73b8b6168/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/ensembles4612" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Posts -->
+						    
+							<section class="posts">
+							
+							    <article>
+								<header>
+								 <span class="date">July, 2020</span>
+									<h2><a href="https://github.com/ensembles4612/analysis_and_modeling_on_data_science_jobs_Canada">Analysis on Data Science Jobs in Canada with Salary Prediction Flask API Deployed in Herokou</a></h2>
+								</header>	
+									<a href="https://github.com/ensembles4612/analysis_and_modeling_on_data_science_jobs_Canada" class="image fit" ><img src="images/datajobs.png" alt=""  width="400" height="450" /></a>
+
+									<h3 style="text-align:left">Project Highlights:</h3>
+									<ul>
+									    <li>Scraped job listings for 3 target positions from Glassdoor for a one-month period using selenium in Python</li>
+										<li>Cleaned, Visualized and analyzed job listing data in a variety of ways using matplotlib, seaborn, wordcloud, etc.</li>
+										<li>Built salary prediction models for various positions in data analysis area in Canada using Multivariate Linear, Lasso, Random Forest and SVM</li>
+										<li>Fine-tuned Lasso, and Random Forest and SVM using GridsearchCV to achieve the best model (MAE ~ $16k)</li>
+										<li>Deployed SVM model as a client-facing salary prediction tool on a website using Flask and Heroku</li>
+									 </ul>
+								
+								<ul class="actions special">
+									<li><a href="https://github.com/ensembles4612/analysis_and_modeling_on_data_science_jobs_Canada" class="button">See More in My GitHub Repo</a></li>
+								</ul>
+							</article>
+							
+							
+							
+								<article>
+									<header>
+										<span class="date">September, 2020</span>
+										<h2><a href="https://github.com/ensembles4612/product_demand_forecast_using_DeepAR_Amazon_SageMaker">Product Demand Forecast Using DeepAR in SageMaker <br />
+										with Endpoint Deployed Using API Gateway and AWS Lambda </a></h2>
+									</header>
+									<a href="https://github.com/ensembles4612/product_demand_forecast_using_DeepAR_Amazon_SageMaker" class="image fit"><img src="images/volumedemand.png" alt="" /></a>
+									<h3>Project Highlights:</h3>									
+									<ul>
+									    <li>Predicted monthly volume demand(hectoliters) for 350 Agency-SKU combination beer products simultaneously based on not only their own historical data but also other impactful features such as price and promotions using DeepAR in SageMaker AWS</li>
+										<li>Trained and fine-tuned the DeepAR models using auto-tuning job, a built-in function in Sagemaker, and obtained test error(RMSE)=760</li>
+										<li>Deployed the model as an endpoint and invoked it using API Gateway and AWS Lambda, so clients can access it for forecast on https://wol03vnof2.execute-api.us-east-2.amazonaws.com/beta (deleted to stop billing)</li>
+										<li>Forecasted with a cold start: making predictions for unseen Agency-SKU combinations</li>
+
+									 </ul>
+
+									<ul class="actions special">
+										<li><a href="https://github.com/ensembles4612/product_demand_forecast_using_DeepAR_Amazon_SageMaker" class="button">See More in My GitHub Repo</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">June, 2019</span>
+										<h2><a href="https://github.com/ensembles4612/Statistical-Analysis-on-Biochemical-Recurrence-Prostate-Cancer-Among-Patients-in-3-Locations">Statistical Analysis on Biochemical Recurrence Prostate Cancer Among Patients in 3 Locations</a></h2>
+									</header>
+									<a href="https://github.com/ensembles4612/Statistical-Analysis-on-Biochemical-Recurrence-Prostate-Cancer-Among-Patients-in-3-Locations" class="image fit"><img src="images/bcrcancer.png" alt=""  width="400" height="400"/></a>
+									<h3>Project Highlights:</h3>
+									<ul>
+									<li>Computed Patient Baseline Characteristics table and Kaplan-Meier Curve graphs regarding 3 locations for prostate cancer patients</li>
+                                    <li>Proved probabilities of freedom from BCR among three locations were significantly different after stratification by conducting Stratified Logrank Test</li>
+                                    <li>built a AIC Stepwise Cox’s proportional hazards regression model with imputation and interaction terms, obtaining which demographic factors and genes have effects on survival</li>
+                                    <li>Found which factors and genes have greater effects on survival using Random Survival Forest method</li>
+									</ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/ensembles4612/Statistical-Analysis-on-Biochemical-Recurrence-Prostate-Cancer-Among-Patients-in-3-Locations" class="button">See More in My GitHub Repo</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">November, 2020</span>
+										<h2><a href="https://github.com/ensembles4612/medical_intent_detector_using_BERT">Medical Intent Detector Using BERT</a></h2>
+									</header>
+									<a href="https://github.com/ensembles4612/medical_intent_detector_using_BERT" class="image fit"><img src="images/bert.png" alt="" /></a>
+									<h3>Project Highlights:</h3>
+                                     <p>I built a multi-class classifier using BERT from Transformers that can identify common medical symptoms based on descriptive text. For example, the model can predict the medical intent is "Neck pain" after parsing the text message "There is a tingling sensation in my neck." It can be applied to services such as medical chatbot.</p>
+									 <p>As for the model building process, I built the classifier with transfer learning from pre-trained BERT model, which was already trained on large corpus. For our specific task, the pre-trained BERT model was added an layer on top for classifying descriptive text to 25 intents (categories). When training started, I fine-tuned the entire pre-trained BERT model and the additional untrained classification layer. After 4 epochs of fine-tuning the model on thousands of text messages with a good selection of hyperparameters, I obtained 99.40% accuracy in the test set. </p>
+									<ul class="actions special">
+										<li><a href="https://github.com/ensembles4612/medical_intent_detector_using_BERT" class="button">See More in My GitHub Repo</a></li>
+									</ul>
+								</article>
+							
+							</section>
+
+
+	
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
